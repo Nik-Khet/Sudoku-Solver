@@ -62,12 +62,10 @@ def checkgrid(sod, xgrid, ygrid, gridsize,possibleValues):
                 sod[x+xgrid*gridsize,y+ygrid*gridsize]=i          
     return sod
 
-
 def indexToXY(number,gridsize):
     x= math.floor(number/gridsize)
     y= number-gridsize*x
     return x,y
-    
 
 def solve(sod):
     gridsize= int(np.sqrt(np.shape(sod)[0]))
@@ -94,4 +92,3 @@ if __name__ == "__main__":
         print("Input file could not be loaded succesfully")
     finally:
         input_file.close()
-            
