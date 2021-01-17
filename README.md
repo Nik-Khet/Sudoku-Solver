@@ -1,4 +1,4 @@
-# Sudoku
+# Sudoku Solver
 Solves an n by n Sudoku given in a .txt format.
 
 ## Prerequisites
