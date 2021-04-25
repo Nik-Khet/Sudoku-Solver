@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Jun 26 18:31:49 2020
-
-@author: Nikhil
-"""
 import numpy as np
 import math
 import collections
